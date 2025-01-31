@@ -19,6 +19,9 @@ body {
 .navbar {
     background-color: #609EF7;
     padding: 10px 20px;
+    width: 100%;
+    top: 0%;
+    
 }
 
 .navbar ul {
@@ -81,6 +84,20 @@ body {
             z-index: 2;
             
         }
+.Poem-text-Center {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, 5%);
+            color: #609EF7;
+            #background-color: rgba(0, 0, 0, 0.5);
+            #padding: 1rem 2rem;
+            margin-bottom:2rem;
+            border-radius: 5px;
+            text-align: center;
+            z-index: 2;
+            width: 100%
+        }
 .Story-text-Left {
             position: absolute;
             top: 10%;
@@ -89,7 +106,7 @@ body {
             color: #609EF7;
             #background-color: rgba(0, 0, 0, 0.5);
             #padding: 1rem 2rem;
-            margin-bottom:2rem
+            margin-bottom:2rem;
             border-radius: 5px;
             text-align: left;
             z-index: 2;
