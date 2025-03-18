@@ -65,6 +65,20 @@ body {
     background-position: center;	
         }
 
+main-light {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: auto;
+	    width: 100%	;
+        background-image:url("images/PuttSkt-Copy.png");
+    background-size: cover;
+    background-position: center;	
+        }
+
         .main-text {
             position: absolute;
             top: 10%;
@@ -100,7 +114,7 @@ body {
             text-align: center;
             z-index: 2;
             width: 100%;
-            background-color: whitesmoke;
+            
         }
 .Story-text-Left {
             position: absolute;
@@ -113,7 +127,7 @@ body {
             text-align: left;
             z-index: 2;
             width: 100%;
-            background-color: whitesmoke;
+            
         }
 .main-image {
             width: 100%;
